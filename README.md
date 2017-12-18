@@ -14,6 +14,6 @@ This is a dynamic LLVM Pass which is to give the basicblocks id and profile the 
 
 ### execute by the Pass
 
-`opt -load /the/path/of/libDFGPass.so -DFG /the/path/of/llvm/IR/file`
+`opt -load /the/path/of/libDFGPass.so -DFGPass /the/path/of/llvm/IR/file`
 
 then there are the outputs.
