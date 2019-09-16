@@ -1,5 +1,5 @@
 # llvm_DFGPass
-llvm Data Flow Graph分析
+llvm Data Flow Graph dump
 ---
 
 This is a dynamic LLVM Pass which is to give the basicblocks id and profile the ids.
