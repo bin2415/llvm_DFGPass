@@ -44,6 +44,9 @@ namespace {
 		StringRef getValueName(Value* v)
 		{
 			std::string temp_result = "val";
+			if (!v) {
+				return "undefined";
+			}
 			if (v->getName().empty())
 			{
 				temp_result += std::to_string(num);
